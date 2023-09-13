@@ -51,7 +51,7 @@ const CaseStudies = () => {
         <p className="text-slate-400 text-[21px] font-thin  md:ml-0 ml-4">
           {description[currentImageIndex]}
         </p>
-        <p className="text-slate-200 text-[21px] flex items-end justify-end font-thin  md:mr-0 mr-3">
+        <p className="text-slate-200 text-[21px] flex items-end justify-end font-thin md:mr-0 mr-3">
           {authors[currentImageIndex]}
         </p>
         <div className="flex flex-row gap-4 md:items-start md:justify-start items-center justify-center">
