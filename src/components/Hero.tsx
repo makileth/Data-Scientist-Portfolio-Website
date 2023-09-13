@@ -7,7 +7,7 @@ const Hero = () => {
     <section
       className={`${layout.section} md:max-w-7xl h-[60rem] md:my-0 my-24 justify-around items-center relative `}
     >
-      <motion.div className="flex flex-col items-start  md:ml-0 ml-1" 
+      <motion.div className="flex flex-col items-start  md:ml-0 ml-6 " 
         initial={{ opacity: 0, scale: 0.9, x: -50 }}
         animate={{ opacity: 1, scale: 1, x: 0 }}
         transition={{ duration: 0.5, delay: 0.7 }}
@@ -36,7 +36,7 @@ const Hero = () => {
           className="w-full object-cover rounded-[10px]"
         />
       </motion.div>
-      <motion.div className="absolute z-[-1] inset-0 w-[75%] h-[75%] md:left-[45%] left-0 top-[15%] bg-gradient-to-r from-orange-500 to-blue-400  rounded-full blur-[10rem]" 
+      <motion.div className="absolute z-[-1] inset-0 md:w-[75%] md:h-[75%] w-[45%] h-[20%] md:left-[45%] left-0 top-[15%] bg-gradient-to-r from-orange-500 to-blue-400  rounded-full blur-[10rem]" 
          initial={{ opacity: 0, scale: 0.9,   }}
          animate={{ opacity: 1, scale: 1,  }}
          transition={{ duration: 0.5, delay: 1 }}

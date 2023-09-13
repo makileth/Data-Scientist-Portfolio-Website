@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const About = () => {
   return (
     <section
-      className={`${layout.sectionImgReverse} max-w-4xl md:flex-row flex-col relative md:py-36 py-24`}
+      className={`${layout.sectionImgReverse} max-w-4xl md:flex-row flex-col relative md:py-36 py-24 gap-12`}
     >
       <div className="">
         <video
@@ -13,9 +13,9 @@ const About = () => {
           muted
           playsInline
           id="background-video"
-          className="object-cover w-[15rem] h-[15rem] fixed top-0 left-0 z-[-1]"
+          className="object-cover w-[80rem] h-[18rem] z-[-1]"
         >
-          <source src="/assets/animation.mov" type="video/quicktime" />
+          <source src="/assets/animation.webm" type="video/quicktime" />
           Your browser does not support the video tag.
         </video>
       </div>

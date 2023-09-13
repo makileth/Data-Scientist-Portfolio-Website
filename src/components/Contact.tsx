@@ -31,7 +31,7 @@ const Contact = () => {
           {" "}
           Want me to estimate your project?
         </h1>
-        <div className="mx-auto w-[85%] flex flex-col gap-4 items-center justify-center">
+        <div className="mx-auto md:w-full w-[85%] flex flex-col gap-4 items-center justify-center">
           <input
             type="text"
             placeholder="How should I call you?"

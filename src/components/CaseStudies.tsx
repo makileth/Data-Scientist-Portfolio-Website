@@ -107,7 +107,7 @@ const CaseStudies = () => {
         </div>
       </div>
 
-      <motion.div className="absolute z-[-5] inset-0 w-[75%]  h-[75%] md:left-[60%] l-0 top-[13%] bg-gradient-to-l from-orange-400 to-blue-400  rounded-full blur-[10rem]" 
+      <motion.div className="absolute z-[-5] inset-0 md:w-[75%]  md:h-[75%] w-[25%] h-[25%] md:left-[60%] l-0 md:top-[13%] top-[60%]   bg-gradient-to-l from-orange-400 to-blue-400  rounded-full blur-[10rem]" 
          initial={{ opacity: 0, scale: 0.9, x: -50 }}
          animate={{ opacity: 1, scale: 1, x: 0 }}
          transition={{ duration: 0.5, delay: 1 }}
