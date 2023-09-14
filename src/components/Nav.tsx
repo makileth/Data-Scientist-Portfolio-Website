@@ -9,7 +9,7 @@ const Nav = () => {
   return (
     <nav className="flex flex-1 w-screen sticky z-[30] top-0 bg-black h-12 border-b border-blue-200">
       <div className="flex w-full justify-between flex-row my-auto">
-        <h1>logo here</h1>
+        <img src="/assets/logo.svg" alt="" className="w-8 ml-3 h-8 filter invert my-auto " />
         <div className="text-white font-thin text-[16px] space-x-7 my-auto md:block hidden">
           <a
             href="/"
