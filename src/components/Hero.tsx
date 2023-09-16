@@ -16,7 +16,7 @@ const Hero = () => {
         <h1 className="md:text-[48px] text-[32px] text-transparent bg-clip-text bg-gradient-to-r  from-orange-500 to-blue-400 font-bold ">
           LEAD DATA SCIENTIST
         </h1>
-        <p className="text-[24px] text-gray-400 md:max-w-[470px] w-[370px]  mt-6 font-thin">
+        <p className="text-[24px] text-gray-400 md:max-w-[470px] w-[95%]  mt-6 font-thin">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
           tincidunt tempus neque a suscipit. Cras interdum aliquam lorem, ut
           finibus eros scelerisque ut. Phasellus faucibus nisi a massa euismod
@@ -25,7 +25,7 @@ const Hero = () => {
         </p>
         <h4 className="text-[18px] text-orange-500 underline py-6 hover:text-blue-400 transition duration-300">My Story →</h4>
       </motion.div>
-      <motion.div className="h-[30rem] w-[24rem] flex md:ml-[7rem]"
+      <motion.div className="h-[30rem] md:w-[24rem] w-[80%] flex md:ml-[7rem]"
           initial={{ opacity: 0, scale: 0.9, x: 50 }}
           animate={{ opacity: 1, scale: 1, x: 0 }}
           transition={{ duration: 0.5, delay: 1 }}

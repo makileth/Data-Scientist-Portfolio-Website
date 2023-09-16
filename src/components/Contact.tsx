@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const Contact = () => {
   return (
     <section
-      className={`${layout.section} max-w-7xl md:h-[60rem] h-[70rem] md:mb-0 mb-24 justify-between items-start relative gap-24 `}
+      className={`${layout.section} max-w-7xl md:h-[60rem] h-[70rem] md:mb-0 mb-24 justify-between md:items-start items-center relative gap-24 `}
     >
       <motion.div
         initial={{ opacity: 0, scale: 0.9, x: -50 }}
@@ -25,7 +25,7 @@ const Contact = () => {
         initial={{ opacity: 0, scale: 0.9, x: 50 }}
         animate={{ opacity: 1, scale: 1, x: 0 }}
         transition={{ duration: 0.5, delay: 0.7 }}
-        className="flex flex-col items-end justify-end bg-gray-950 md:p-12 p-[10px] mx-auto max-w-[22rem]"
+        className="flex flex-col bg-gray-950 md:p-12 p-[10px] max-w-[22rem]"
       >
         <h1 className="text-[32px] text-white  font-bold mt-[20px] md:ml-0 ml-3">
           {" "}
