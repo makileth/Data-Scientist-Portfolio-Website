@@ -13,7 +13,7 @@ const About = () => {
           muted
           playsInline
           id="background-video"
-          className="object-cover w-[80rem] h-[18rem] z-[-1]"
+          className="object-cover md:w-[120rem] md:h-[18rem] z-[-1]"
         >
           <source src="/assets/animation.webm" type="video/quicktime" />
           Your browser does not support the video tag.
